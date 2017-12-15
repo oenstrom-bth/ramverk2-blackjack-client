@@ -1,0 +1,37 @@
+{
+    "name": "blackjack-client",
+    "version": "0.1.0",
+    "description": "A Black Jack client made in Electron and React",
+    "private": true,
+    "main": "electron-starter.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "electron": "electron .",
+        "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+        "electron-dev-win": "set ELECTRON_START_URL=http://localhost:3000 && electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oenstrom/ramverk2-blackjack-client.git"
+    },
+    "author": "Olof Enström",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/oenstrom/ramverk2-blackjack-client/issues"
+    },
+    "homepage": "./",
+    "devDependencies": {
+        "electron": "^1.7.9"
+    },
+    "dependencies": {
+        "axios": "^0.17.1",
+        "jov": "0.0.1",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "^1.0.17"
+    }
+}
